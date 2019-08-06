@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A224328A5BBFDDF878CEBA62A5DE6D5 /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F40F8AE274C7DE00EF283B206F72F752 /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2396EE4FA14B4491F311CE7595EF51AF /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DD7BD9A73183E0CB2B25C5D401EBDC /* AEXML-dummy.m */; };
+		382A4EB52AD66F464AC55D7F994BD8A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		6A46FDE0394FAD7D11408F1A282F66C0 /* Pods-TbxParserFrwUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43D4BE956BC7A4706FFC07F20A2D2C /* Pods-TbxParserFrwUtils-dummy.m */; };
+		6BA6E2968E09CA3B31E2EC6F2A9D92BB /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0EAA3D121D2501F332ED5984321AB /* Parser.swift */; };
+		71A43E2D24F581C02519E94AD71CCBD3 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E6527F546826F67001414C5FEA4B5 /* Element.swift */; };
+		88380F6AD5F731C38C8548B61468BC75 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A125F0C1AD966CFD2C4CF9E1B82D5F /* Error.swift */; };
+		922C5F6A03B0CB287BA0D9119D2B2471 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		A1B1735D68AED36D66E59617B13BAA09 /* Pods-TinderboxParserMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5322FA75DE86CCBC4D4D6695F9941AD3 /* Pods-TinderboxParserMac-dummy.m */; };
+		AED489974F92D2BCB50CA9E8B9CD816E /* Pods-TbxParserUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D71C2B9EA7BA216CF610DA8D89354 /* Pods-TbxParserUtils-dummy.m */; };
+		C855C2CA848C9965D50D4DA88D645300 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		DFA531D12DBD29BDFE322B4B6B61E590 /* Pods-TinderboxParserMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C87DFF52A4465E3E6D0FF9091F20B1E6 /* Pods-TinderboxParserMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E37C7640473C61FA57CA82E2AD743114 /* Pods-TbxParserFrwUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E103DEE03D5CAA25F8B86CDE30C67427 /* Pods-TbxParserFrwUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC64AF0E51DB22BBB6F42E2C5D01F98 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA894D52E64AD5CD4ABE393CD082D4C8 /* Document.swift */; };
+		F53FA9B823F43A71A1F29455ECA52A80 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FD3500898ADA70B3A5FEB2143532F /* Options.swift */; };
+		F5DE9BECAE3DDBD31EBCF33E72A5FC52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		F784C9893F65B20BC2448DC42998E9E9 /* Pods-TbxParserUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6609133F3C67263E9EB3A14E20E4C1A8 /* Pods-TbxParserUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6650618FC8DBA76079336912C5DE102F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228D9AEE65C945E1274E1A5CEF6D53D3;
+			remoteInfo = AEXML;
+		};
+		C16D9EEF4FC150A3C3A4AD6E7EABD62B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228D9AEE65C945E1274E1A5CEF6D53D3;
+			remoteInfo = AEXML;
+		};
+		FF11DE2B58CFC96618D7F017590CA5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228D9AEE65C945E1274E1A5CEF6D53D3;
+			remoteInfo = AEXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0052BB74DB9D0311BF695EA865CACE4A /* Pods-TbxParserFrwUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TbxParserFrwUtils.modulemap"; sourceTree = "<group>"; };
+		025FE978BC3F6710575D12834F469F3A /* AEXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEXML-Info.plist"; sourceTree = "<group>"; };
+		026E6527F546826F67001414C5FEA4B5 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/AEXML/Element.swift; sourceTree = "<group>"; };
+		1250A8DB72F9F55EE5EAF9B0B28A27AA /* Pods-TbxParserFrwUtils-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TbxParserFrwUtils-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F2D71C2B9EA7BA216CF610DA8D89354 /* Pods-TbxParserUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TbxParserUtils-dummy.m"; sourceTree = "<group>"; };
+		22ADB607F1178FCAED2EB29CD76B507B /* Pods-TbxParserFrwUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TbxParserFrwUtils.release.xcconfig"; sourceTree = "<group>"; };
+		2DE1AD4174DCC04FC3DB65D0FE90EF10 /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEXML.modulemap; sourceTree = "<group>"; };
+		34D0EAA3D121D2501F332ED5984321AB /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/AEXML/Parser.swift; sourceTree = "<group>"; };
+		389C19CD211B1878554E8FC28C789F04 /* Pods-TbxParserUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TbxParserUtils.release.xcconfig"; sourceTree = "<group>"; };
+		38DD7BD9A73183E0CB2B25C5D401EBDC /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
+		5322FA75DE86CCBC4D4D6695F9941AD3 /* Pods-TinderboxParserMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderboxParserMac-dummy.m"; sourceTree = "<group>"; };
+		54EADF1730D40011DF6403763FB3F7B5 /* Pods-TinderboxParserMac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderboxParserMac-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A43C3C373CEFCE7DE3086714CBC9807 /* Pods-TbxParserFrwUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TbxParserFrwUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		6214819FCDD6ED309844CC89468EBA70 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609133F3C67263E9EB3A14E20E4C1A8 /* Pods-TbxParserUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TbxParserUtils-umbrella.h"; sourceTree = "<group>"; };
+		699D11DBF9A3A2F0654904E8E58A413F /* Pods_TbxParserFrwUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TbxParserFrwUtils.framework; path = "Pods-TbxParserFrwUtils.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5AA1B4B170F77BF81C4369F67AFF5F /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
+		701FD3500898ADA70B3A5FEB2143532F /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/AEXML/Options.swift; sourceTree = "<group>"; };
+		73769AA364F54CDC8A927E335E20D18D /* Pods-TinderboxParserMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinderboxParserMac.modulemap"; sourceTree = "<group>"; };
+		78A125F0C1AD966CFD2C4CF9E1B82D5F /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/AEXML/Error.swift; sourceTree = "<group>"; };
+		7BA376AD479F45EBAF7F209D3FAE4294 /* Pods-TbxParserUtils-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TbxParserUtils-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E4286D1C206D27F731DB3A2F1BDA631 /* Pods_TinderboxParserMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinderboxParserMac.framework; path = "Pods-TinderboxParserMac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81658CCB4B54D912AE1ACCF086F1DD5E /* Pods-TinderboxParserMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderboxParserMac.debug.xcconfig"; sourceTree = "<group>"; };
+		81D2D15FB889D07A2EC92338CA745AC1 /* Pods-TinderboxParserMac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderboxParserMac-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8921A4A11DB19628A8FCAAF27914299E /* Pods-TbxParserUtils-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TbxParserUtils-frameworks.sh"; sourceTree = "<group>"; };
+		9BADBD98DBB9B610791126755DF87B16 /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
+		9CDF0D492841103C78DC9696921EB365 /* Pods-TbxParserUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TbxParserUtils.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3AEFB62894AE5F6E446B80BD9D596DC /* Pods-TbxParserUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TbxParserUtils-Info.plist"; sourceTree = "<group>"; };
+		AA894D52E64AD5CD4ABE393CD082D4C8 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/AEXML/Document.swift; sourceTree = "<group>"; };
+		B0C9DA45C1974AFE59A43EE11F3AD08D /* Pods-TbxParserUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TbxParserUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		B6FFAB23708312699632D370DFA94BD3 /* Pods-TbxParserFrwUtils-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TbxParserFrwUtils-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0B69D53899D17AD527947D26ACCA278 /* Pods-TinderboxParserMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderboxParserMac.release.xcconfig"; sourceTree = "<group>"; };
+		C3823044F98454DD708EEB071154C7A6 /* Pods-TbxParserFrwUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TbxParserFrwUtils-Info.plist"; sourceTree = "<group>"; };
+		C87DFF52A4465E3E6D0FF9091F20B1E6 /* Pods-TinderboxParserMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinderboxParserMac-umbrella.h"; sourceTree = "<group>"; };
+		CF43D4BE956BC7A4706FFC07F20A2D2C /* Pods-TbxParserFrwUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TbxParserFrwUtils-dummy.m"; sourceTree = "<group>"; };
+		DA547859FA555186EC48637BAEF86689 /* Pods-TbxParserUtils-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TbxParserUtils-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBB5DD76BC2BB9C4B8ADB6AB0ED205B6 /* Pods-TinderboxParserMac-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderboxParserMac-Info.plist"; sourceTree = "<group>"; };
+		E103DEE03D5CAA25F8B86CDE30C67427 /* Pods-TbxParserFrwUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TbxParserFrwUtils-umbrella.h"; sourceTree = "<group>"; };
+		EFA28521123006B4E827409F03FC5425 /* Pods-TinderboxParserMac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinderboxParserMac-frameworks.sh"; sourceTree = "<group>"; };
+		F40F8AE274C7DE00EF283B206F72F752 /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F98F0FA42C0DF155B034E1871BDD2E04 /* Pods_TbxParserUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TbxParserUtils.framework; path = "Pods-TbxParserUtils.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D548B7125FB1E80B40AACADD5D3F3D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DE9BECAE3DDBD31EBCF33E72A5FC52 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1244B8FCDC76595A7C3BECDC941199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922C5F6A03B0CB287BA0D9119D2B2471 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A5974987F335A9A4BE3369D565B0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382A4EB52AD66F464AC55D7F994BD8A5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE25EBECEB3236473F56363D825EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C855C2CA848C9965D50D4DA88D645300 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B08116B367B41051089FBBB0EA73E38 /* Pods-TinderboxParserMac */ = {
+			isa = PBXGroup;
+			children = (
+				73769AA364F54CDC8A927E335E20D18D /* Pods-TinderboxParserMac.modulemap */,
+				81D2D15FB889D07A2EC92338CA745AC1 /* Pods-TinderboxParserMac-acknowledgements.markdown */,
+				54EADF1730D40011DF6403763FB3F7B5 /* Pods-TinderboxParserMac-acknowledgements.plist */,
+				5322FA75DE86CCBC4D4D6695F9941AD3 /* Pods-TinderboxParserMac-dummy.m */,
+				EFA28521123006B4E827409F03FC5425 /* Pods-TinderboxParserMac-frameworks.sh */,
+				DBB5DD76BC2BB9C4B8ADB6AB0ED205B6 /* Pods-TinderboxParserMac-Info.plist */,
+				C87DFF52A4465E3E6D0FF9091F20B1E6 /* Pods-TinderboxParserMac-umbrella.h */,
+				81658CCB4B54D912AE1ACCF086F1DD5E /* Pods-TinderboxParserMac.debug.xcconfig */,
+				C0B69D53899D17AD527947D26ACCA278 /* Pods-TinderboxParserMac.release.xcconfig */,
+			);
+			name = "Pods-TinderboxParserMac";
+			path = "Target Support Files/Pods-TinderboxParserMac";
+			sourceTree = "<group>";
+		};
+		16FD3E056573446FC1E91C437E86EBA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1AD4174DCC04FC3DB65D0FE90EF10 /* AEXML.modulemap */,
+				9BADBD98DBB9B610791126755DF87B16 /* AEXML.xcconfig */,
+				38DD7BD9A73183E0CB2B25C5D401EBDC /* AEXML-dummy.m */,
+				025FE978BC3F6710575D12834F469F3A /* AEXML-Info.plist */,
+				6E5AA1B4B170F77BF81C4369F67AFF5F /* AEXML-prefix.pch */,
+				F40F8AE274C7DE00EF283B206F72F752 /* AEXML-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AEXML";
+			sourceTree = "<group>";
+		};
+		27360C4F78C5B9A44991E397B68B70BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7189FE678875B334BBAA70BDC3911BEF /* Pods-TbxParserFrwUtils */,
+				74DDF26A9366C08C6669925434B985EA /* Pods-TbxParserUtils */,
+				0B08116B367B41051089FBBB0EA73E38 /* Pods-TinderboxParserMac */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7189FE678875B334BBAA70BDC3911BEF /* Pods-TbxParserFrwUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0052BB74DB9D0311BF695EA865CACE4A /* Pods-TbxParserFrwUtils.modulemap */,
+				1250A8DB72F9F55EE5EAF9B0B28A27AA /* Pods-TbxParserFrwUtils-acknowledgements.markdown */,
+				B6FFAB23708312699632D370DFA94BD3 /* Pods-TbxParserFrwUtils-acknowledgements.plist */,
+				CF43D4BE956BC7A4706FFC07F20A2D2C /* Pods-TbxParserFrwUtils-dummy.m */,
+				C3823044F98454DD708EEB071154C7A6 /* Pods-TbxParserFrwUtils-Info.plist */,
+				E103DEE03D5CAA25F8B86CDE30C67427 /* Pods-TbxParserFrwUtils-umbrella.h */,
+				5A43C3C373CEFCE7DE3086714CBC9807 /* Pods-TbxParserFrwUtils.debug.xcconfig */,
+				22ADB607F1178FCAED2EB29CD76B507B /* Pods-TbxParserFrwUtils.release.xcconfig */,
+			);
+			name = "Pods-TbxParserFrwUtils";
+			path = "Target Support Files/Pods-TbxParserFrwUtils";
+			sourceTree = "<group>";
+		};
+		74DDF26A9366C08C6669925434B985EA /* Pods-TbxParserUtils */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF0D492841103C78DC9696921EB365 /* Pods-TbxParserUtils.modulemap */,
+				DA547859FA555186EC48637BAEF86689 /* Pods-TbxParserUtils-acknowledgements.markdown */,
+				7BA376AD479F45EBAF7F209D3FAE4294 /* Pods-TbxParserUtils-acknowledgements.plist */,
+				1F2D71C2B9EA7BA216CF610DA8D89354 /* Pods-TbxParserUtils-dummy.m */,
+				8921A4A11DB19628A8FCAAF27914299E /* Pods-TbxParserUtils-frameworks.sh */,
+				A3AEFB62894AE5F6E446B80BD9D596DC /* Pods-TbxParserUtils-Info.plist */,
+				6609133F3C67263E9EB3A14E20E4C1A8 /* Pods-TbxParserUtils-umbrella.h */,
+				B0C9DA45C1974AFE59A43EE11F3AD08D /* Pods-TbxParserUtils.debug.xcconfig */,
+				389C19CD211B1878554E8FC28C789F04 /* Pods-TbxParserUtils.release.xcconfig */,
+			);
+			name = "Pods-TbxParserUtils";
+			path = "Target Support Files/Pods-TbxParserUtils";
+			sourceTree = "<group>";
+		};
+		9E0CC19A42DE7C2761DFEB62D9679F19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6214819FCDD6ED309844CC89468EBA70 /* AEXML.framework */,
+				699D11DBF9A3A2F0654904E8E58A413F /* Pods_TbxParserFrwUtils.framework */,
+				F98F0FA42C0DF155B034E1871BDD2E04 /* Pods_TbxParserUtils.framework */,
+				7E4286D1C206D27F731DB3A2F1BDA631 /* Pods_TinderboxParserMac.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC19C99CD36D57AB5C2FBECEE9F01030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C966492BC6F2E29641435C08274657FB /* AEXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C966492BC6F2E29641435C08274657FB /* AEXML */ = {
+			isa = PBXGroup;
+			children = (
+				AA894D52E64AD5CD4ABE393CD082D4C8 /* Document.swift */,
+				026E6527F546826F67001414C5FEA4B5 /* Element.swift */,
+				78A125F0C1AD966CFD2C4CF9E1B82D5F /* Error.swift */,
+				701FD3500898ADA70B3A5FEB2143532F /* Options.swift */,
+				34D0EAA3D121D2501F332ED5984321AB /* Parser.swift */,
+				16FD3E056573446FC1E91C437E86EBA4 /* Support Files */,
+			);
+			name = AEXML;
+			path = AEXML;
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				AC19C99CD36D57AB5C2FBECEE9F01030 /* Pods */,
+				9E0CC19A42DE7C2761DFEB62D9679F19 /* Products */,
+				27360C4F78C5B9A44991E397B68B70BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FB88A155DF6B32DE68CEB63E24D913B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A224328A5BBFDDF878CEBA62A5DE6D5 /* AEXML-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D199B3FDBF60EDD8DC10F07A1B321A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA531D12DBD29BDFE322B4B6B61E590 /* Pods-TinderboxParserMac-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B02B687C81A5034210E450351B7027 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37C7640473C61FA57CA82E2AD743114 /* Pods-TbxParserFrwUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41E9287668EB092A546D5D85EFFC38D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F784C9893F65B20BC2448DC42998E9E9 /* Pods-TbxParserUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		228D9AEE65C945E1274E1A5CEF6D53D3 /* AEXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7F86735E5D76405EAE505A75856368 /* Build configuration list for PBXNativeTarget "AEXML" */;
+			buildPhases = (
+				5FB88A155DF6B32DE68CEB63E24D913B /* Headers */,
+				99AFA82AD6F0F1A7D3030AA8EFA237EB /* Sources */,
+				DC1244B8FCDC76595A7C3BECDC941199 /* Frameworks */,
+				60503B849A3CFD8D41D43FE9F3F79E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEXML;
+			productName = AEXML;
+			productReference = 6214819FCDD6ED309844CC89468EBA70 /* AEXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DB7EE28A0CD60B6942C3AFB25A8BC6F /* Pods-TinderboxParserMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D8525C27490038121FE01BB48095BC /* Build configuration list for PBXNativeTarget "Pods-TinderboxParserMac" */;
+			buildPhases = (
+				61D199B3FDBF60EDD8DC10F07A1B321A /* Headers */,
+				96777922AB2514983005F6D00BD83BE2 /* Sources */,
+				D548B7125FB1E80B40AACADD5D3F3D1F /* Frameworks */,
+				B053B8C24EEF693E77A6A0A4C394DA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026823CF49527E66926A6771A58B0FE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TinderboxParserMac";
+			productName = "Pods-TinderboxParserMac";
+			productReference = 7E4286D1C206D27F731DB3A2F1BDA631 /* Pods_TinderboxParserMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8DB9B9A604C24E88564990434E6D1A4 /* Pods-TbxParserUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CF7A6ABAF5C945C074F13B58655FAC /* Build configuration list for PBXNativeTarget "Pods-TbxParserUtils" */;
+			buildPhases = (
+				C41E9287668EB092A546D5D85EFFC38D /* Headers */,
+				4091A96A3FA248A85B3710BE181B02BD /* Sources */,
+				F2EE25EBECEB3236473F56363D825EAB /* Frameworks */,
+				8BEEEF5A01549DCFF73306F519143E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEBE7B0D54DCB93CBECC8348BD696BF /* PBXTargetDependency */,
+			);
+			name = "Pods-TbxParserUtils";
+			productName = "Pods-TbxParserUtils";
+			productReference = F98F0FA42C0DF155B034E1871BDD2E04 /* Pods_TbxParserUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7D6B9ADB643DD29CEDF4BE2746C4A43 /* Pods-TbxParserFrwUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7588C72A9A5086735CECF61A9C24CA /* Build configuration list for PBXNativeTarget "Pods-TbxParserFrwUtils" */;
+			buildPhases = (
+				A6B02B687C81A5034210E450351B7027 /* Headers */,
+				C6F67BD33B272E39A812B9E65D543883 /* Sources */,
+				E9A5974987F335A9A4BE3369D565B0C5 /* Frameworks */,
+				F70A0F273734DF04BA8BB1FE0BC11B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E9A38AEF3AB0B64809DCEE0E3EB1978 /* PBXTargetDependency */,
+			);
+			name = "Pods-TbxParserFrwUtils";
+			productName = "Pods-TbxParserFrwUtils";
+			productReference = 699D11DBF9A3A2F0654904E8E58A413F /* Pods_TbxParserFrwUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9E0CC19A42DE7C2761DFEB62D9679F19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228D9AEE65C945E1274E1A5CEF6D53D3 /* AEXML */,
+				C7D6B9ADB643DD29CEDF4BE2746C4A43 /* Pods-TbxParserFrwUtils */,
+				A8DB9B9A604C24E88564990434E6D1A4 /* Pods-TbxParserUtils */,
+				8DB7EE28A0CD60B6942C3AFB25A8BC6F /* Pods-TinderboxParserMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60503B849A3CFD8D41D43FE9F3F79E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEEEF5A01549DCFF73306F519143E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B053B8C24EEF693E77A6A0A4C394DA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70A0F273734DF04BA8BB1FE0BC11B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4091A96A3FA248A85B3710BE181B02BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED489974F92D2BCB50CA9E8B9CD816E /* Pods-TbxParserUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96777922AB2514983005F6D00BD83BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B1735D68AED36D66E59617B13BAA09 /* Pods-TinderboxParserMac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AFA82AD6F0F1A7D3030AA8EFA237EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2396EE4FA14B4491F311CE7595EF51AF /* AEXML-dummy.m in Sources */,
+				EBC64AF0E51DB22BBB6F42E2C5D01F98 /* Document.swift in Sources */,
+				71A43E2D24F581C02519E94AD71CCBD3 /* Element.swift in Sources */,
+				88380F6AD5F731C38C8548B61468BC75 /* Error.swift in Sources */,
+				F53FA9B823F43A71A1F29455ECA52A80 /* Options.swift in Sources */,
+				6BA6E2968E09CA3B31E2EC6F2A9D92BB /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F67BD33B272E39A812B9E65D543883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A46FDE0394FAD7D11408F1A282F66C0 /* Pods-TbxParserFrwUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026823CF49527E66926A6771A58B0FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 228D9AEE65C945E1274E1A5CEF6D53D3 /* AEXML */;
+			targetProxy = 6650618FC8DBA76079336912C5DE102F /* PBXContainerItemProxy */;
+		};
+		9E9A38AEF3AB0B64809DCEE0E3EB1978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 228D9AEE65C945E1274E1A5CEF6D53D3 /* AEXML */;
+			targetProxy = FF11DE2B58CFC96618D7F017590CA5F0 /* PBXContainerItemProxy */;
+		};
+		EBEBE7B0D54DCB93CBECC8348BD696BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 228D9AEE65C945E1274E1A5CEF6D53D3 /* AEXML */;
+			targetProxy = C16D9EEF4FC150A3C3A4AD6E7EABD62B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047DD2171D27153505BC14F2FC15B5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C9DA45C1974AFE59A43EE11F3AD08D /* Pods-TbxParserUtils.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TbxParserUtils/Pods-TbxParserUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TbxParserUtils/Pods-TbxParserUtils.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E7B342CCB8629D041EE15C04AC32FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BADBD98DBB9B610791126755DF87B16 /* AEXML.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		43A89D4C1683807EF4EDF83AE48EFF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A43C3C373CEFCE7DE3086714CBC9807 /* Pods-TbxParserFrwUtils.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TbxParserFrwUtils/Pods-TbxParserFrwUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TbxParserFrwUtils/Pods-TbxParserFrwUtils.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		597E092427DF423992C59C814880FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8BDB1F351A4F119A5A09B75A07A918C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22ADB607F1178FCAED2EB29CD76B507B /* Pods-TbxParserFrwUtils.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TbxParserFrwUtils/Pods-TbxParserFrwUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TbxParserFrwUtils/Pods-TbxParserFrwUtils.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94017D25D697DF43F96CF4CDE7C4DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389C19CD211B1878554E8FC28C789F04 /* Pods-TbxParserUtils.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TbxParserUtils/Pods-TbxParserUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TbxParserUtils/Pods-TbxParserUtils.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B19C2BFCAD9F678527452A4CE58ACC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81658CCB4B54D912AE1ACCF086F1DD5E /* Pods-TinderboxParserMac.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TinderboxParserMac/Pods-TinderboxParserMac-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinderboxParserMac/Pods-TinderboxParserMac.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7AE6C50D97CA94678429432BB7ABEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BADBD98DBB9B610791126755DF87B16 /* AEXML.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F489B357F197E8B5E3746623134E84C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B69D53899D17AD527947D26ACCA278 /* Pods-TinderboxParserMac.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TinderboxParserMac/Pods-TinderboxParserMac-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinderboxParserMac/Pods-TinderboxParserMac.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CF7A6ABAF5C945C074F13B58655FAC /* Build configuration list for PBXNativeTarget "Pods-TbxParserUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DD2171D27153505BC14F2FC15B5A7 /* Debug */,
+				94017D25D697DF43F96CF4CDE7C4DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */,
+				597E092427DF423992C59C814880FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D8525C27490038121FE01BB48095BC /* Build configuration list for PBXNativeTarget "Pods-TinderboxParserMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19C2BFCAD9F678527452A4CE58ACC23 /* Debug */,
+				F489B357F197E8B5E3746623134E84C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7F86735E5D76405EAE505A75856368 /* Build configuration list for PBXNativeTarget "AEXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E7B342CCB8629D041EE15C04AC32FF0 /* Debug */,
+				D7AE6C50D97CA94678429432BB7ABEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7588C72A9A5086735CECF61A9C24CA /* Build configuration list for PBXNativeTarget "Pods-TbxParserFrwUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A89D4C1683807EF4EDF83AE48EFF62 /* Debug */,
+				8BDB1F351A4F119A5A09B75A07A918C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

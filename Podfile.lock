@@ -1,0 +1,16 @@
+PODS:
+  - AEXML (4.4.0)
+
+DEPENDENCIES:
+  - AEXML
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+
+SPEC CHECKSUMS:
+  AEXML: 16fb739dfb3809e91ebf9e9dc391482c3a6aaebf
+
+PODFILE CHECKSUM: b20ae1504f19520f3ff4dc5f3eb237af2bd2c977
+
+COCOAPODS: 1.6.2
