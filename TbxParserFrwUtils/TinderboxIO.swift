@@ -12,10 +12,17 @@ import Cocoa
 public struct TinderboxIO {
     
     var tbxfileURL: URL?
+    var tbxItems: TbxItem?
+    var xmlParser: XMLParserTbx?
     
-   public mutating func loadTinderboxXmlDocument() {
+    
+    public init(tbxFileURL: URL?) {
+        self.tbxfileURL = tbxFileURL
+    }
+    
+    public mutating func loadTinderboxXmlDocument() {
         
-       // print("well done tb")
+        // print("well done tb")
         
         let openFileTypes = ["tbx"]
         
@@ -26,21 +33,36 @@ public struct TinderboxIO {
         openPanel.canChooseFiles = true
         openPanel.allowedFileTypes = openFileTypes
         
-            openPanel.directoryURL = NSURL(fileURLWithPath: "/Users/michaelisbell/Dropbox/___tbx/",isDirectory: false) as URL
-            let _ = openPanel.urls
+        openPanel.directoryURL = self.tbxfileURL
+        let _ = openPanel.urls
         let _ = openPanel.runModal()
         
-            if let fileurl  = openPanel.url {
+        if let fileurl  = openPanel.url {
             
-                self.tbxfileURL = fileurl
+            self.tbxfileURL = fileurl
             
-//            if let xmlParserTbx = XMLParserTbx(contentPath: fileurl  ) {
-//                xmlParserTbx.parse()
-//
-//            }
-//            else {
-//
-//            }
+            if let xmlParserTbx = XMLParserTbx(contentPath: fileurl  ) {
+                xmlParserTbx.parse()
+                self.tbxItems = xmlParserTbx.tbxItems
+                
+            }
+            else {
+                
+            }
+            
+        }
+        
+    }
+    
+    public func writeTinderboxXmlDocument() {
+        
+        
+        if let xmlWriterTbx = XMLWriterTbx(tbxItem: self.tbxItems!) {
+            xmlWriterTbx.print()
+            
+            
+        }
+        else {
             
         }
         

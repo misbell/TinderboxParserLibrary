@@ -10,7 +10,7 @@
 import Foundation
 
 
-class TbxItem {
+public class TbxItem {
     
     var name : String
     var value: String

@@ -11,6 +11,7 @@
 		1B49EA1322F90BD0003AAF42 /* TbxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49EA1022F90BCF003AAF42 /* TbxItem.swift */; };
 		1B49EA1422F90BD0003AAF42 /* XMLParserTbx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49EA1122F90BCF003AAF42 /* XMLParserTbx.swift */; };
 		1B49EA1522F90BD0003AAF42 /* TinderboxIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49EA1222F90BD0003AAF42 /* TinderboxIO.swift */; };
+		1BAFD62222FA37EB005526C0 /* XMLWriterTbxPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFD62122FA37EB005526C0 /* XMLWriterTbxPrint.swift */; };
 		2D1EAFF77BC70940C638CEEC /* Pods_TbxParserFrwUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E580A5876F7EE70B82E6A8E /* Pods_TbxParserFrwUtils.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		1B49EA1022F90BCF003AAF42 /* TbxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TbxItem.swift; sourceTree = "<group>"; };
 		1B49EA1122F90BCF003AAF42 /* XMLParserTbx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParserTbx.swift; sourceTree = "<group>"; };
 		1B49EA1222F90BD0003AAF42 /* TinderboxIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderboxIO.swift; sourceTree = "<group>"; };
+		1BAFD62122FA37EB005526C0 /* XMLWriterTbxPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLWriterTbxPrint.swift; sourceTree = "<group>"; };
 		3A81AA98E2D6D228992EE392 /* Pods-TbxParserFrwUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TbxParserFrwUtils.debug.xcconfig"; path = "Target Support Files/Pods-TbxParserFrwUtils/Pods-TbxParserFrwUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		89B0491B29487C827A8C460F /* Pods-TbxParserFrwUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TbxParserFrwUtils.release.xcconfig"; path = "Target Support Files/Pods-TbxParserFrwUtils/Pods-TbxParserFrwUtils.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +46,7 @@
 				1B49EA1022F90BCF003AAF42 /* TbxItem.swift */,
 				1B49EA1222F90BD0003AAF42 /* TinderboxIO.swift */,
 				1B49EA1122F90BCF003AAF42 /* XMLParserTbx.swift */,
+				1BAFD62122FA37EB005526C0 /* XMLWriterTbxPrint.swift */,
 				1B49EA0722F90AEC003AAF42 /* TbxParserFrwUtils */,
 				1B49EA0622F90AEC003AAF42 /* Products */,
 				FE94E0BA3CBE57097FD72AE2 /* Pods */,
@@ -195,6 +198,7 @@
 				1B49EA1322F90BD0003AAF42 /* TbxItem.swift in Sources */,
 				1B49EA1522F90BD0003AAF42 /* TinderboxIO.swift in Sources */,
 				1B49EA1422F90BD0003AAF42 /* XMLParserTbx.swift in Sources */,
+				1BAFD62222FA37EB005526C0 /* XMLWriterTbxPrint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

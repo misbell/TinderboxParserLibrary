@@ -9,6 +9,7 @@
   
 
   xcodeproj 'TinderboxParserMac/TinderboxParserMac.xcodeproj'
+  xcodeproj 'TinderboxMacSwiftUI/TinderboxMacSwiftUI.xcodeproj'
   xcodeproj 'TbxParserUtils/TbxParserUtils.xcodeproj'
   xcodeproj 'TbxParserFrwUtils/TbxParserFrwUtils.xcodeproj'
 
@@ -20,6 +21,11 @@
 
 target 'TinderboxParserMac' do
 xcodeproj 'TinderboxParserMac/TinderboxParserMac.xcodeproj'
+parser_pods
+end
+
+target 'TinderboxMacSwiftUI' do
+xcodeproj 'TinderboxMacSwiftUI/TinderboxMacSwiftUI.xcodeproj'
 parser_pods
 end
 

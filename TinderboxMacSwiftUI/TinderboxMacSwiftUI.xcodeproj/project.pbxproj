@@ -12,7 +12,24 @@
 		1BAFD5EC22F9EE8D005526C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFD5EB22F9EE8D005526C0 /* Assets.xcassets */; };
 		1BAFD5EF22F9EE8D005526C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFD5EE22F9EE8D005526C0 /* Preview Assets.xcassets */; };
 		1BAFD5F222F9EE8D005526C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFD5F022F9EE8D005526C0 /* Main.storyboard */; };
+		1BAFD60022F9EECE005526C0 /* TbxParserFrwUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFD5FF22F9EECE005526C0 /* TbxParserFrwUtils.framework */; };
+		1BAFD60122F9EECE005526C0 /* TbxParserFrwUtils.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1BAFD5FF22F9EECE005526C0 /* TbxParserFrwUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED3E48DDF16E4A14C326278C /* Pods_TinderboxMacSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F05974E3C19EE584F39ACE /* Pods_TinderboxMacSwiftUI.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BAFD5FE22F9EEC6005526C0 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1BAFD60122F9EECE005526C0 /* TbxParserFrwUtils.framework in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1BAFD5E422F9EE8C005526C0 /* TinderboxMacSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderboxMacSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +40,11 @@
 		1BAFD5F122F9EE8D005526C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BAFD5F322F9EE8D005526C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAFD5F422F9EE8D005526C0 /* TinderboxMacSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinderboxMacSwiftUI.entitlements; sourceTree = "<group>"; };
+		1BAFD5FB22F9EEC6005526C0 /* libTbxParserUtils.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libTbxParserUtils.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAFD5FF22F9EECE005526C0 /* TbxParserFrwUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TbxParserFrwUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F05974E3C19EE584F39ACE /* Pods_TinderboxMacSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderboxMacSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86361DF7E61E8BF78AEEAE3E /* Pods-TinderboxMacSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderboxMacSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-TinderboxMacSwiftUI/Pods-TinderboxMacSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		9B83D93A84E7AC98E1892AE5 /* Pods-TinderboxMacSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderboxMacSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-TinderboxMacSwiftUI/Pods-TinderboxMacSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAFD60022F9EECE005526C0 /* TbxParserFrwUtils.framework in Frameworks */,
+				ED3E48DDF16E4A14C326278C /* Pods_TinderboxMacSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +65,8 @@
 			children = (
 				1BAFD5E622F9EE8C005526C0 /* TinderboxMacSwiftUI */,
 				1BAFD5E522F9EE8C005526C0 /* Products */,
+				1BAFD5FA22F9EEC6005526C0 /* Frameworks */,
+				1EB66C3A59B09C01862014B2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +100,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1BAFD5FA22F9EEC6005526C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFD5FF22F9EECE005526C0 /* TbxParserFrwUtils.framework */,
+				1BAFD5FB22F9EEC6005526C0 /* libTbxParserUtils.dylib */,
+				42F05974E3C19EE584F39ACE /* Pods_TinderboxMacSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EB66C3A59B09C01862014B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B83D93A84E7AC98E1892AE5 /* Pods-TinderboxMacSwiftUI.debug.xcconfig */,
+				86361DF7E61E8BF78AEEAE3E /* Pods-TinderboxMacSwiftUI.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BAFD5F722F9EE8D005526C0 /* Build configuration list for PBXNativeTarget "TinderboxMacSwiftUI" */;
 			buildPhases = (
+				275676262E107EAD13CF15DD /* [CP] Check Pods Manifest.lock */,
 				1BAFD5E022F9EE8C005526C0 /* Sources */,
 				1BAFD5E122F9EE8C005526C0 /* Frameworks */,
 				1BAFD5E222F9EE8C005526C0 /* Resources */,
+				1BAFD5FE22F9EEC6005526C0 /* Embed Libraries */,
+				2E8C850210A9193DD8C1537F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +188,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275676262E107EAD13CF15DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinderboxMacSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E8C850210A9193DD8C1537F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderboxMacSwiftUI/Pods-TinderboxMacSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderboxMacSwiftUI/Pods-TinderboxMacSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinderboxMacSwiftUI/Pods-TinderboxMacSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BAFD5E022F9EE8C005526C0 /* Sources */ = {
@@ -279,6 +370,7 @@
 		};
 		1BAFD5F822F9EE8D005526C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B83D93A84E7AC98E1892AE5 /* Pods-TinderboxMacSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TinderboxMacSwiftUI/TinderboxMacSwiftUI.entitlements;
@@ -302,6 +394,7 @@
 		};
 		1BAFD5F922F9EE8D005526C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86361DF7E61E8BF78AEEAE3E /* Pods-TinderboxMacSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TinderboxMacSwiftUI/TinderboxMacSwiftUI.entitlements;

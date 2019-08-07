@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8DB9B9A604C24E88564990434E6D1A4"
+               BlueprintIdentifier = "BC908D0A58831497D14CE57048A93D61"
                BuildableName = "Pods_TbxParserUtils.framework"
                BlueprintName = "Pods-TbxParserUtils"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -26,7 +26,7 @@ public struct TinderboxIO {
         openPanel.canChooseFiles = true
         openPanel.allowedFileTypes = openFileTypes
         
-            openPanel.directoryURL = NSURL(fileURLWithPath: "/Users/michaelisbell/Dropbox/___tbx/",isDirectory: false) as URL
+            openPanel.directoryURL = URL(fileURLWithPath: "/Users/michaelisbell/Dropbox/___tbx/",isDirectory: false)
             let _ = openPanel.urls
         let _ = openPanel.runModal()
         

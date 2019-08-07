@@ -15,10 +15,12 @@ public class XMLParserTbx   {
     
     
     
-    var path: String
-    var data: Data
-    var items: [TbxItem]?
-    var tbxItems : TbxItem = TbxItem()
+   fileprivate var path: String
+   fileprivate var data: Data
+   fileprivate var items: [TbxItem]?
+    
+    // this should be a property
+    public var tbxItems : TbxItem = TbxItem()
     
     
     var itemIDNumbers : [Int] = []
@@ -69,12 +71,12 @@ public class XMLParserTbx   {
     
    public func parse() {
         
-        do {
-            let x = try AEXMLDocument(xml: self.data)
-        } catch {
-            print("\(error)")
-        }
-        
+//        do {
+//            let x = try AEXMLDocument(xml: self.data)
+//        } catch {
+//            print("\(error)")
+//        }
+//
         
         
         do {
@@ -145,6 +147,8 @@ public class XMLParserTbx   {
             
             // make accessible to outlineview
             self.items?.append(tbxItems)
+            
+            
             
   
             

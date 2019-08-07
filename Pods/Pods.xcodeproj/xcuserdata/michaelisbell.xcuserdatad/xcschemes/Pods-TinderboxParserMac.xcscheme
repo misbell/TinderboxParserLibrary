@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DB7EE28A0CD60B6942C3AFB25A8BC6F"
+               BlueprintIdentifier = "40C1169A106DEADD7B1D17AC13002565"
                BuildableName = "Pods_TinderboxParserMac.framework"
                BlueprintName = "Pods-TinderboxParserMac"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -5,6 +5,9 @@
       location = "group:Podfile">
    </FileRef>
    <FileRef
+      location = "group:TinderboxMacSwiftUI/TinderboxMacSwiftUI.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TbxParserFrwUtils/TbxParserFrwUtils.xcodeproj">
    </FileRef>
    <FileRef
