@@ -9,11 +9,17 @@
 
 import Foundation
 
+enum XmlType {
+    case element
+    case attribute
+}
+
 
 public class TbxItem {
     
     var name : String
     var value: String
+    var type: XmlType
 //    var ID: String
 //    var isPrototype: Bool
 //    var aliasID:String
@@ -31,6 +37,7 @@ public class TbxItem {
             
             self.name = ""
             self.value = ""
+            self.type = .element
 //            self.ID = ""
 //            self.isPrototype = false
 //            self.aliasID = ""
@@ -44,11 +51,12 @@ public class TbxItem {
       }
     
     //designated
-    init(name: String, value: String, children: Array<TbxItem>) {
+    init(name: String, value: String, type: XmlType, children: Array<TbxItem>) {
         
         
         self.name = name
         self.value = value
+        self.type = type
         self.children = []
         
     }

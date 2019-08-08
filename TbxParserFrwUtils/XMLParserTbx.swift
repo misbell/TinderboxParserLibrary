@@ -43,12 +43,12 @@ public class XMLParserTbx   {
             
             if let _ = child.value {
            //      print("\(child.name) and \(child.value!)")
-                currentItem = TbxItem(name: child.name, value: child.value!, children: [])
+                currentItem = TbxItem(name: child.name, value: child.value!, type: .element, children: [])
                 parentItem.addChild(item: currentItem)
             }
             else {
                // print("\(child.name) and NO VALUE  )")
-                currentItem = TbxItem(name: child.name, value: "", children: [])
+                currentItem = TbxItem(name: child.name, value: "", type: .element, children: [])
                 parentItem.addChild(item: currentItem)
                 
                 
@@ -63,7 +63,7 @@ public class XMLParserTbx   {
                     }
                 }
                 
-                currentItem.addChild(item: TbxItem(name: attribute.0 as! String, value: attribute.1 as! String, children: [])) // this could break
+                currentItem.addChild(item: TbxItem(name: attribute.0 as! String, value: attribute.1 as! String, type: .attribute, children: [])) // this could break
             }
             getChildren(parentItem: currentItem, element: child)
         }
@@ -102,21 +102,24 @@ public class XMLParserTbx   {
             // this is where i build my array
             
             
-            var currentItem = TbxItem(name: (xmlDoc.root.first?.name)!, value: "", children: [])
+            var currentItem = TbxItem(name: (xmlDoc.root.first?.name)!, value: "", type: .element, children: [])
             self.tbxItems = currentItem
             for attribute in xmlDoc.root.attributes {
-                currentItem.addChild(item: TbxItem(name: attribute.0 as! String, value: attribute.1 as! String, children: [])) // this could break
+                currentItem.addChild(item: TbxItem(name: attribute.0 , value: attribute.1 , type: XmlType.attribute, children: [])) // this could break
             }
             
+            // top level below root elements handled here, and their attributes
+            // then get children gets the child elements of each root child
+            // recursively
             for child in xmlDoc.root.children {
                 if let _ = child.value {
                     //   print("\(child.name) and \(child.value!)")
-                    currentItem = TbxItem(name: child.name, value: child.value!, children: [])
+                    currentItem = TbxItem(name: child.name, value: child.value!, type: .element, children: [])
                     self.tbxItems.addChild(item: currentItem)
                 }
                 else {
                     //print("\(child.name) and NO VALUE NO VALUE NO VALUE )")
-                    currentItem = TbxItem(name: child.name, value: "", children: [])
+                    currentItem = TbxItem(name: child.name, value: "", type: .element, children: [])
                     self.tbxItems.addChild(item: currentItem)
                 }
                 
@@ -130,7 +133,7 @@ public class XMLParserTbx   {
                         }
                     }
                     
-                    currentItem.addChild(item: TbxItem(name: attribute.0 as! String, value: attribute.1 as! String, children: [])) // this could break
+                    currentItem.addChild(item: TbxItem(name: attribute.0 as! String, value: attribute.1 as! String, type: .attribute, children: [])) // this could break
                     
                 }
                 
